@@ -18,11 +18,6 @@ const NFTItem = ({ data, showDetails }) => {
             alt={data.name}
           />
         ) : (
-          //   <img
-          //     className='w-full h-[250px] object-cover hover:scale-[1.2] transition-all duration-150'
-          //     src={data.normalized_metadata.image}
-          //     alt={data.name}
-          //   />
           <div className='h-[250px] bg-[grey]/[.5]' />
         )}
       </div>
